@@ -258,8 +258,3 @@ Class | Method | HTTP request | Description
 
 - **Type**: HTTP basic authentication
 
-
-## Author
-
-platform@connectwise.com
-
