@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,12 +57,12 @@ class OpportunityNote implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'opportunity_id' => 'int',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference',
         'text' => 'string',
         'flagged' => 'bool',
         'entered_by' => 'string',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Model\Guid',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid',
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -231,7 +231,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference
      */
     public function getType()
     {
@@ -240,7 +240,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\NoteTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -315,7 +315,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -324,7 +324,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -336,7 +336,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -345,7 +345,7 @@ class OpportunityNote implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

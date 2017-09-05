@@ -5,11 +5,11 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** |  | [optional] 
 **name** | **string** |  | 
-**type** | [**\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference**](AgreementTypeReference.md) |  | 
-**company** | [**\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | 
-**contact** | [**\Spinen\ConnectWise\Clients\Sales\Model\ContactReference**](ContactReference.md) |  | 
-**sub_contract_company** | [**\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
-**sub_contract_contact** | [**\Spinen\ConnectWise\Clients\Sales\Model\ContactReference**](ContactReference.md) |  | [optional] 
+**type** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference**](AgreementTypeReference.md) |  | 
+**company** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | 
+**contact** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference**](ContactReference.md) |  | 
+**sub_contract_company** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**sub_contract_contact** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference**](ContactReference.md) |  | [optional] 
 **parent_agreement_id** | **int** |  | [optional] 
 **customer_po** | **string** |  | [optional] 
 **location_id** | **int** |  | [optional] 
@@ -19,7 +19,7 @@ Name | Type | Description | Notes
 **start_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **end_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **no_ending_date_flag** | **bool** |  | [optional] 
-**opportunity** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference**](OpportunityReference.md) |  | [optional] 
+**opportunity** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference**](OpportunityReference.md) |  | [optional] 
 **cancelled_flag** | **bool** |  | [optional] 
 **date_cancelled** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **reason_cancelled** | **string** |  | [optional] 
@@ -49,19 +49,20 @@ Name | Type | Description | Notes
 **bill_one_time_flag** | **bool** |  | [optional] 
 **bill_terms_id** | **int** |  | [optional] 
 **invoicing_cycle** | **string** |  | [optional] 
-**bill_to_company** | [**\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
-**bill_to_site** | [**\Spinen\ConnectWise\Clients\Sales\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**bill_to_company** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**bill_to_site** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference**](SiteReference.md) |  | [optional] 
 **bill_amount** | **double** |  | [optional] 
 **taxable** | **bool** |  | [optional] 
 **prorate_first_bill** | **double** |  | [optional] 
 **bill_start_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **tax_code_id** | **int** |  | [optional] 
 **restrict_down_payment** | **bool** |  | [optional] 
+**prorate_flag** | **bool** |  | [optional] 
 **invoice_description** | **string** |  | [optional] 
 **top_comment** | **bool** |  | [optional] 
 **bottom_comment** | **bool** |  | [optional] 
-**work_role** | [**\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference**](WorkRoleReference.md) |  | [optional] 
-**work_type** | [**\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference**](WorkTypeReference.md) |  | [optional] 
+**work_role** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference**](WorkRoleReference.md) |  | [optional] 
+**work_type** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference**](WorkTypeReference.md) |  | [optional] 
 **project_type_id** | **int** |  | [optional] 
 **invoice_template_setup_id** | **int** |  | [optional] 
 **bill_time** | **string** |  | [optional] 
@@ -70,7 +71,7 @@ Name | Type | Description | Notes
 **billable_time_invoice** | **bool** |  | [optional] 
 **billable_expense_invoice** | **bool** |  | [optional] 
 **billable_product_invoice** | **bool** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Sales\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 **period_type** | **string** |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

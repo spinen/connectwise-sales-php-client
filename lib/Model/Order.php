@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -56,22 +56,22 @@ class Order implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
         'phone' => 'string',
         'phone_ext' => 'string',
         'email' => 'string',
-        'site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
+        'site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
         'order_date' => '\DateTime',
         'due_date' => '\DateTime',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference',
         'po_number' => 'string',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
         'notes' => 'string',
         'bill_closed_flag' => 'bool',
         'bill_shipped_flag' => 'bool',
@@ -79,19 +79,19 @@ class Order implements ArrayAccess
         'description' => 'string',
         'top_comment_flag' => 'bool',
         'bottom_comment_flag' => 'bool',
-        'ship_to_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'ship_to_site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'ship_to_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'ship_to_site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
         'product_ids' => 'int[]',
         'document_ids' => 'int[]',
         'invoice_ids' => 'int[]',
         'config_ids' => 'int[]',
         'total' => 'double',
         'tax_total' => 'double',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -374,7 +374,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -383,7 +383,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -395,7 +395,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -404,7 +404,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -479,7 +479,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getSite()
     {
@@ -488,7 +488,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -500,7 +500,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference
      */
     public function getStatus()
     {
@@ -509,7 +509,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -521,7 +521,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -530,7 +530,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -584,7 +584,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -593,7 +593,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -605,7 +605,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -614,7 +614,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -693,7 +693,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets sales_rep
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getSalesRep()
     {
@@ -702,7 +702,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets sales_rep
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $sales_rep
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $sales_rep
      * @return $this
      */
     public function setSalesRep($sales_rep)
@@ -861,7 +861,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets ship_to_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getShipToCompany()
     {
@@ -870,7 +870,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets ship_to_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $ship_to_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $ship_to_company
      * @return $this
      */
     public function setShipToCompany($ship_to_company)
@@ -882,7 +882,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets ship_to_contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getShipToContact()
     {
@@ -891,7 +891,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets ship_to_contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $ship_to_contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $ship_to_contact
      * @return $this
      */
     public function setShipToContact($ship_to_contact)
@@ -903,7 +903,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets ship_to_site
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getShipToSite()
     {
@@ -912,7 +912,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets ship_to_site
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $ship_to_site
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $ship_to_site
      * @return $this
      */
     public function setShipToSite($ship_to_site)
@@ -924,7 +924,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -933,7 +933,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -945,7 +945,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets bill_to_contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getBillToContact()
     {
@@ -954,7 +954,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets bill_to_contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $bill_to_contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $bill_to_contact
      * @return $this
      */
     public function setBillToContact($bill_to_contact)
@@ -966,7 +966,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets bill_to_site
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getBillToSite()
     {
@@ -975,7 +975,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets bill_to_site
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
      * @return $this
      */
     public function setBillToSite($bill_to_site)
@@ -1113,7 +1113,7 @@ class Order implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -1122,7 +1122,7 @@ class Order implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

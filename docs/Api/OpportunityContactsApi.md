@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsContactIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdGet($id, $contact_id)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdGet($id, $contact_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsContactIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdPatch($id, $contact_id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdPatch($id, $contact_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityContactsApi();
 $id = 56; // int | 
 $contact_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdContactsContactIdPatch($id, $contact_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **contact_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsContactIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdPut($id, $contact_id, $opportunity_contact)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsContactIdPut($id, $contact_id, $opportunity_contact)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityContactsApi();
 $id = 56; // int | 
 $contact_id = 56; // int | 
-$opportunity_contact = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact | 
+$opportunity_contact = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdContactsContactIdPut($id, $contact_id, $opportunity_contact);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **contact_id** | **int**|  |
- **opportunity_contact** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact.md)|  |
+ **opportunity_contact** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdContactsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdContactsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[] salesOpportunitiesIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[] salesOpportunitiesIdContactsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]**](../Model/OpportunityContact.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]**](../Model/OpportunityContact.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdContactsPost**
-> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsPost($id, $opportunity_contact)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact salesOpportunitiesIdContactsPost($id, $opportunity_contact)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityContactsApi();
 $id = 56; // int | 
-$opportunity_contact = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact | 
+$opportunity_contact = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdContactsPost($id, $opportunity_contact);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **opportunity_contact** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact.md)|  |
+ **opportunity_contact** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact**](../Model/OpportunityContact.md)
 
 ### Authorization
 

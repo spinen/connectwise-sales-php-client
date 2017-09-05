@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **closed_flag** | **bool** |  | [optional] 
 **inactive_flag** | **bool** |  | [optional] 
 **default_flag** | **bool** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Sales\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 **entered_by** | **string** |  | [optional] 
 **date_entered** | [**\DateTime**](\DateTime.md) |  | [optional] 
 

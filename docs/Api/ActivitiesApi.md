@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesActivitiesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\Count salesActivitiesCountGet($conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesActivitiesCountGet($conditions, $custom_field_conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesActivitiesGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\Activity[] salesActivitiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity[] salesActivitiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -111,7 +111,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Activity[]**](../Model/Activity.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity[]**](../Model/Activity.md)
 
 ### Authorization
 
@@ -173,7 +173,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesActivitiesIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdGet($id)
 
 
 
@@ -208,7 +208,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesActivitiesIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdPatch($id, $operations)
 
 
 
@@ -239,7 +239,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\ActivitiesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesActivitiesIdPatch($id, $operations);
@@ -255,11 +255,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesActivitiesIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdPut($id, $activity)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesIdPut($id, $activity)
 
 
 
@@ -290,7 +290,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\ActivitiesApi();
 $id = 56; // int | 
-$activity = new \Spinen\ConnectWise\Clients\Sales\Model\Activity(); // \Spinen\ConnectWise\Clients\Sales\Model\Activity | 
+$activity = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity | 
 
 try {
     $result = $api_instance->salesActivitiesIdPut($id, $activity);
@@ -306,11 +306,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **activity** | [**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Activity.md)|  |
+ **activity** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
 
 ### Authorization
 
@@ -324,7 +324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesActivitiesPost**
-> \Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesPost($activity)
+> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity salesActivitiesPost($activity)
 
 
 
@@ -340,7 +340,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\ActivitiesApi();
-$activity = new \Spinen\ConnectWise\Clients\Sales\Model\Activity(); // \Spinen\ConnectWise\Clients\Sales\Model\Activity | 
+$activity = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity | 
 
 try {
     $result = $api_instance->salesActivitiesPost($activity);
@@ -355,11 +355,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **activity** | [**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Activity.md)|  |
+ **activity** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
+[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Activity**](../Model/Activity.md)
 
 ### Authorization
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,11 +57,11 @@ class OpportunityToProjectConversion implements ArrayAccess
     protected static $swaggerTypes = [
         'project_id' => 'int',
         'name' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'board' => '\Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference',
-        'manager' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'board' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference',
+        'manager' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
         'estimated_start' => 'string',
         'estimated_end' => 'string',
         'include_all_notes_flag' => 'bool',
@@ -260,7 +260,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference
      */
     public function getStatus()
     {
@@ -269,7 +269,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -323,7 +323,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference
      */
     public function getBoard()
     {
@@ -332,7 +332,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectBoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -344,7 +344,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Gets manager
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getManager()
     {
@@ -353,7 +353,7 @@ class OpportunityToProjectConversion implements ArrayAccess
 
     /**
      * Sets manager
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $manager
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $manager
      * @return $this
      */
     public function setManager($manager)

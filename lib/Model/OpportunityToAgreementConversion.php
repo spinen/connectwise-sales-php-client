@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class OpportunityToAgreementConversion implements ArrayAccess
     protected static $swaggerTypes = [
         'agreement_id' => 'int',
         'name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference',
         'start_date' => 'string',
         'end_date' => 'string',
         'no_ending_date_flag' => 'bool',
@@ -265,7 +265,7 @@ class OpportunityToAgreementConversion implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference
      */
     public function getType()
     {
@@ -274,7 +274,7 @@ class OpportunityToAgreementConversion implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference $type
      * @return $this
      */
     public function setType($type)

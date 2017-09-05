@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,28 +57,28 @@ class Activity implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
         'phone_number' => 'string',
         'email' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
-        'ticket' => '\Spinen\ConnectWise\Clients\Sales\Model\TicketReference',
-        'agreement' => '\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference',
-        'campaign' => '\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
+        'ticket' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TicketReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference',
+        'campaign' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference',
         'notes' => 'string',
         'date_start' => '\DateTime',
         'date_end' => '\DateTime',
-        'assigned_by' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
-        'assign_to' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
-        'schedule_status' => '\Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference',
-        'reminder' => '\Spinen\ConnectWise\Clients\Sales\Model\ReminderReference',
-        'where' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference',
+        'assigned_by' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'assign_to' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'schedule_status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference',
+        'reminder' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ReminderReference',
+        'where' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference',
         'notify_flag' => 'bool',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Model\Guid',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid',
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -261,9 +261,6 @@ class Activity implements ArrayAccess
             $invalid_properties[] = "invalid value for 'email', the character length must be smaller than or equal to 250.";
         }
 
-        if ($this->container['status'] === null) {
-            $invalid_properties[] = "'status' can't be null";
-        }
         if ($this->container['assign_to'] === null) {
             $invalid_properties[] = "'assign_to' can't be null";
         }
@@ -288,9 +285,6 @@ class Activity implements ArrayAccess
             return false;
         }
         if (strlen($this->container['email']) > 250) {
-            return false;
-        }
-        if ($this->container['status'] === null) {
             return false;
         }
         if ($this->container['assign_to'] === null) {
@@ -348,7 +342,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference
      */
     public function getType()
     {
@@ -357,7 +351,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -369,7 +363,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -378,7 +372,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -390,7 +384,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -399,7 +393,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -461,7 +455,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference
      */
     public function getStatus()
     {
@@ -470,7 +464,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ActivityStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -482,7 +476,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -491,7 +485,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -503,7 +497,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets ticket
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\TicketReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TicketReference
      */
     public function getTicket()
     {
@@ -512,7 +506,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets ticket
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\TicketReference $ticket
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TicketReference $ticket
      * @return $this
      */
     public function setTicket($ticket)
@@ -524,7 +518,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -533,7 +527,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -545,7 +539,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets campaign
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CampaignReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference
      */
     public function getCampaign()
     {
@@ -554,7 +548,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets campaign
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CampaignReference $campaign
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference $campaign
      * @return $this
      */
     public function setCampaign($campaign)
@@ -629,7 +623,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets assigned_by
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getAssignedBy()
     {
@@ -638,7 +632,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets assigned_by
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $assigned_by
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $assigned_by
      * @return $this
      */
     public function setAssignedBy($assigned_by)
@@ -650,7 +644,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets assign_to
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getAssignTo()
     {
@@ -659,7 +653,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets assign_to
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $assign_to
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $assign_to
      * @return $this
      */
     public function setAssignTo($assign_to)
@@ -671,7 +665,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets schedule_status
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference
      */
     public function getScheduleStatus()
     {
@@ -680,7 +674,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets schedule_status
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference $schedule_status
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ScheduleStatusReference $schedule_status
      * @return $this
      */
     public function setScheduleStatus($schedule_status)
@@ -692,7 +686,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets reminder
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ReminderReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ReminderReference
      */
     public function getReminder()
     {
@@ -701,7 +695,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets reminder
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ReminderReference $reminder
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ReminderReference $reminder
      * @return $this
      */
     public function setReminder($reminder)
@@ -713,7 +707,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets where
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference
      */
     public function getWhere()
     {
@@ -722,7 +716,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets where
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference $where
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference $where
      * @return $this
      */
     public function setWhere($where)
@@ -755,7 +749,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -764,7 +758,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -776,7 +770,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -785,7 +779,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -797,7 +791,7 @@ class Activity implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -806,7 +800,7 @@ class Activity implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

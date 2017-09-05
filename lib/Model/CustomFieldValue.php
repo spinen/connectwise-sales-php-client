@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -136,7 +136,7 @@ class CustomFieldValue implements ArrayAccess
     const TYPE_TEXT_AREA = 'TextArea';
     const TYPE_PASSWORD = 'Password';
     const ENTRY_METHOD_ENTRY_FIELD = 'EntryField';
-    const ENTRY_METHOD_LIST = 'List';
+    const ENTRY_METHOD__LIST = 'List';
     const ENTRY_METHOD_OPTION = 'Option';
     
 
@@ -170,7 +170,7 @@ class CustomFieldValue implements ArrayAccess
     {
         return [
             self::ENTRY_METHOD_ENTRY_FIELD,
-            self::ENTRY_METHOD_LIST,
+            self::ENTRY_METHOD__LIST,
             self::ENTRY_METHOD_OPTION,
         ];
     }

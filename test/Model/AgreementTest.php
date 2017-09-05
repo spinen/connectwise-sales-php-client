@@ -515,6 +515,14 @@ class AgreementTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Test attribute "prorate_flag"
+     */
+    public function testPropertyProrateFlag()
+    {
+
+    }
+
+    /**
      * Test attribute "invoice_description"
      */
     public function testPropertyInvoiceDescription()

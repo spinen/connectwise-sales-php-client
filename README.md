@@ -139,6 +139,13 @@ Class | Method | HTTP request | Description
 *OpportunityRatingsApi* | [**salesOpportunitiesRatingsIdPatch**](docs/Api/OpportunityRatingsApi.md#salesopportunitiesratingsidpatch) | **PATCH** /sales/opportunities/ratings/{id} | 
 *OpportunityRatingsApi* | [**salesOpportunitiesRatingsIdPut**](docs/Api/OpportunityRatingsApi.md#salesopportunitiesratingsidput) | **PUT** /sales/opportunities/ratings/{id} | 
 *OpportunityRatingsApi* | [**salesOpportunitiesRatingsPost**](docs/Api/OpportunityRatingsApi.md#salesopportunitiesratingspost) | **POST** /sales/opportunities/ratings | 
+*OpportunityStagesApi* | [**salesStagesCountGet**](docs/Api/OpportunityStagesApi.md#salesstagescountget) | **GET** /sales/stages/count | 
+*OpportunityStagesApi* | [**salesStagesGet**](docs/Api/OpportunityStagesApi.md#salesstagesget) | **GET** /sales/stages | 
+*OpportunityStagesApi* | [**salesStagesIdDelete**](docs/Api/OpportunityStagesApi.md#salesstagesiddelete) | **DELETE** /sales/stages/{id} | 
+*OpportunityStagesApi* | [**salesStagesIdGet**](docs/Api/OpportunityStagesApi.md#salesstagesidget) | **GET** /sales/stages/{id} | 
+*OpportunityStagesApi* | [**salesStagesIdPatch**](docs/Api/OpportunityStagesApi.md#salesstagesidpatch) | **PATCH** /sales/stages/{id} | 
+*OpportunityStagesApi* | [**salesStagesIdPut**](docs/Api/OpportunityStagesApi.md#salesstagesidput) | **PUT** /sales/stages/{id} | 
+*OpportunityStagesApi* | [**salesStagesPost**](docs/Api/OpportunityStagesApi.md#salesstagespost) | **POST** /sales/stages | 
 *OpportunityStatusesApi* | [**salesOpportunitiesStatusesCountGet**](docs/Api/OpportunityStatusesApi.md#salesopportunitiesstatusescountget) | **GET** /sales/opportunities/statuses/count | 
 *OpportunityStatusesApi* | [**salesOpportunitiesStatusesGet**](docs/Api/OpportunityStatusesApi.md#salesopportunitiesstatusesget) | **GET** /sales/opportunities/statuses | 
 *OpportunityStatusesApi* | [**salesOpportunitiesStatusesIdDelete**](docs/Api/OpportunityStatusesApi.md#salesopportunitiesstatusesiddelete) | **DELETE** /sales/opportunities/statuses/{id} | 
@@ -174,6 +181,20 @@ Class | Method | HTTP request | Description
 *OrdersApi* | [**salesOrdersIdPatch**](docs/Api/OrdersApi.md#salesordersidpatch) | **PATCH** /sales/orders/{id} | 
 *OrdersApi* | [**salesOrdersIdPut**](docs/Api/OrdersApi.md#salesordersidput) | **PUT** /sales/orders/{id} | 
 *OrdersApi* | [**salesOrdersPost**](docs/Api/OrdersApi.md#salesorderspost) | **POST** /sales/orders | 
+*RolesApi* | [**salesRolesCountGet**](docs/Api/RolesApi.md#salesrolescountget) | **GET** /sales/roles/count | 
+*RolesApi* | [**salesRolesGet**](docs/Api/RolesApi.md#salesrolesget) | **GET** /sales/roles | 
+*RolesApi* | [**salesRolesIdDelete**](docs/Api/RolesApi.md#salesrolesiddelete) | **DELETE** /sales/roles/{id} | 
+*RolesApi* | [**salesRolesIdGet**](docs/Api/RolesApi.md#salesrolesidget) | **GET** /sales/roles/{id} | 
+*RolesApi* | [**salesRolesIdPatch**](docs/Api/RolesApi.md#salesrolesidpatch) | **PATCH** /sales/roles/{id} | 
+*RolesApi* | [**salesRolesIdPut**](docs/Api/RolesApi.md#salesrolesidput) | **PUT** /sales/roles/{id} | 
+*RolesApi* | [**salesRolesPost**](docs/Api/RolesApi.md#salesrolespost) | **POST** /sales/roles | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesCountGet**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiescountget) | **GET** /sales/probabilities/count | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesGet**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiesget) | **GET** /sales/probabilities | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesIdDelete**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiesiddelete) | **DELETE** /sales/probabilities/{id} | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesIdGet**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiesidget) | **GET** /sales/probabilities/{id} | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesIdPatch**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiesidpatch) | **PATCH** /sales/probabilities/{id} | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesIdPut**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiesidput) | **PUT** /sales/probabilities/{id} | 
+*SalesProbabilitiesApi* | [**salesProbabilitiesPost**](docs/Api/SalesProbabilitiesApi.md#salesprobabilitiespost) | **POST** /sales/probabilities | 
 
 
 ## Documentation For Models
@@ -209,6 +230,7 @@ Class | Method | HTTP request | Description
  - [OpportunityRatingReference](docs/Model/OpportunityRatingReference.md)
  - [OpportunityReference](docs/Model/OpportunityReference.md)
  - [OpportunitySalesRoleReference](docs/Model/OpportunitySalesRoleReference.md)
+ - [OpportunityStage](docs/Model/OpportunityStage.md)
  - [OpportunityStageReference](docs/Model/OpportunityStageReference.md)
  - [OpportunityStatus](docs/Model/OpportunityStatus.md)
  - [OpportunityStatusReference](docs/Model/OpportunityStatusReference.md)
@@ -231,7 +253,9 @@ Class | Method | HTTP request | Description
  - [ProjectStatusReference](docs/Model/ProjectStatusReference.md)
  - [ProjectTypeReference](docs/Model/ProjectTypeReference.md)
  - [ReminderReference](docs/Model/ReminderReference.md)
+ - [Role](docs/Model/Role.md)
  - [SLAReference](docs/Model/SLAReference.md)
+ - [SalesProbability](docs/Model/SalesProbability.md)
  - [SalesTeamReference](docs/Model/SalesTeamReference.md)
  - [ScheduleStatusReference](docs/Model/ScheduleStatusReference.md)
  - [ServiceItemReference](docs/Model/ServiceItemReference.md)
