@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -58,38 +58,38 @@ class Opportunity implements ArrayAccess
         'id' => 'int',
         'name' => 'string',
         'expected_close_date' => '\DateTime',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference',
-        'stage' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference',
-        'priority' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference',
+        'stage' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference',
+        'priority' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference',
         'notes' => 'string',
-        'probability' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference',
+        'probability' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference',
         'source' => 'string',
-        'rating' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference',
-        'campaign' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference',
-        'primary_sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
-        'secondary_sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'rating' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference',
+        'campaign' => '\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference',
+        'primary_sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'secondary_sales_rep' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
         'customer_po' => 'string',
         'pipeline_change_date' => '\DateTime',
         'date_became_lead' => '\DateTime',
         'closed_date' => '\DateTime',
-        'closed_by' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'closed_by' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
         'total_sales_tax' => 'double',
-        'ship_to_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'ship_to_site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
+        'ship_to_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'ship_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'ship_to_site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'bill_to_contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -436,7 +436,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference
      */
     public function getType()
     {
@@ -445,7 +445,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -457,7 +457,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets stage
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference
      */
     public function getStage()
     {
@@ -466,7 +466,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets stage
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference $stage
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStageReference $stage
      * @return $this
      */
     public function setStage($stage)
@@ -478,7 +478,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference
      */
     public function getStatus()
     {
@@ -487,7 +487,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -499,7 +499,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets priority
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference
      */
     public function getPriority()
     {
@@ -508,7 +508,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets priority
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference $priority
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityPriorityReference $priority
      * @return $this
      */
     public function setPriority($priority)
@@ -541,7 +541,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets probability
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference
      */
     public function getProbability()
     {
@@ -550,7 +550,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets probability
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference $probability
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference $probability
      * @return $this
      */
     public function setProbability($probability)
@@ -587,7 +587,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets rating
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference
      */
     public function getRating()
     {
@@ -596,7 +596,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets rating
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference $rating
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRatingReference $rating
      * @return $this
      */
     public function setRating($rating)
@@ -608,7 +608,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets campaign
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CampaignReference
      */
     public function getCampaign()
     {
@@ -617,7 +617,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets campaign
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CampaignReference $campaign
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CampaignReference $campaign
      * @return $this
      */
     public function setCampaign($campaign)
@@ -629,7 +629,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets primary_sales_rep
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getPrimarySalesRep()
     {
@@ -638,7 +638,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets primary_sales_rep
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $primary_sales_rep
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $primary_sales_rep
      * @return $this
      */
     public function setPrimarySalesRep($primary_sales_rep)
@@ -650,7 +650,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets secondary_sales_rep
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getSecondarySalesRep()
     {
@@ -659,7 +659,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets secondary_sales_rep
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $secondary_sales_rep
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $secondary_sales_rep
      * @return $this
      */
     public function setSecondarySalesRep($secondary_sales_rep)
@@ -713,7 +713,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -722,7 +722,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -734,7 +734,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -743,7 +743,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -755,7 +755,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getSite()
     {
@@ -764,7 +764,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -864,7 +864,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets closed_by
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getClosedBy()
     {
@@ -873,7 +873,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets closed_by
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $closed_by
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $closed_by
      * @return $this
      */
     public function setClosedBy($closed_by)
@@ -906,7 +906,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets ship_to_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getShipToCompany()
     {
@@ -915,7 +915,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets ship_to_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $ship_to_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $ship_to_company
      * @return $this
      */
     public function setShipToCompany($ship_to_company)
@@ -927,7 +927,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets ship_to_contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getShipToContact()
     {
@@ -936,7 +936,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets ship_to_contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $ship_to_contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $ship_to_contact
      * @return $this
      */
     public function setShipToContact($ship_to_contact)
@@ -948,7 +948,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets ship_to_site
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getShipToSite()
     {
@@ -957,7 +957,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets ship_to_site
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $ship_to_site
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $ship_to_site
      * @return $this
      */
     public function setShipToSite($ship_to_site)
@@ -969,7 +969,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -978,7 +978,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -990,7 +990,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets bill_to_contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getBillToContact()
     {
@@ -999,7 +999,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets bill_to_contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $bill_to_contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $bill_to_contact
      * @return $this
      */
     public function setBillToContact($bill_to_contact)
@@ -1011,7 +1011,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets bill_to_site
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getBillToSite()
     {
@@ -1020,7 +1020,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets bill_to_site
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
      * @return $this
      */
     public function setBillToSite($bill_to_site)
@@ -1032,7 +1032,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -1041,7 +1041,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -1053,7 +1053,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1062,7 +1062,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1074,7 +1074,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -1083,7 +1083,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -1095,7 +1095,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -1104,7 +1104,7 @@ class Opportunity implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

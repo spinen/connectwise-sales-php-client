@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOpportunitiesRatingsCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesRatingsCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesRatingsCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesRatingsGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating[] salesOpportunitiesRatingsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating[] salesOpportunitiesRatingsGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating[]**](../Model/OpportunityRating.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating[]**](../Model/OpportunityRating.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesRatingsIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesRatingsIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityRatingsApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesRatingsIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesRatingsIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdPut($id, $opportunity_rating)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsIdPut($id, $opportunity_rating)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityRatingsApi();
 $id = 56; // int | 
-$opportunity_rating = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating | 
+$opportunity_rating = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating | 
 
 try {
     $result = $api_instance->salesOpportunitiesRatingsIdPut($id, $opportunity_rating);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **opportunity_rating** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating.md)|  |
+ **opportunity_rating** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesRatingsPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsPost($opportunity_rating)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating salesOpportunitiesRatingsPost($opportunity_rating)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityRatingsApi();
-$opportunity_rating = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating | 
+$opportunity_rating = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating | 
 
 try {
     $result = $api_instance->salesOpportunitiesRatingsPost($opportunity_rating);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **opportunity_rating** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating.md)|  |
+ **opportunity_rating** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityRating**](../Model/OpportunityRating.md)
 
 ### Authorization
 

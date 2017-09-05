@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOpportunitiesIdForecastCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdForecastCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdForecastCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdForecastForecastIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdGet($id, $forecast_id)
+> \Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdGet($id, $forecast_id)
 
 
 
@@ -153,7 +153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
 
 ### Authorization
 
@@ -167,7 +167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdForecastForecastIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdPatch($id, $forecast_id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdPatch($id, $forecast_id, $operations)
 
 
 
@@ -185,7 +185,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityForecastsApi();
 $id = 56; // int | 
 $forecast_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdForecastForecastIdPatch($id, $forecast_id, $operations);
@@ -202,11 +202,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **forecast_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdForecastForecastIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdPut($id, $forecast_id, $forecast)
+> \Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastForecastIdPut($id, $forecast_id, $forecast)
 
 
 
@@ -238,7 +238,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityForecastsApi();
 $id = 56; // int | 
 $forecast_id = 56; // int | 
-$forecast = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast | 
+$forecast = new \Spinen\ConnectWise\Clients\Sales\Model\Forecast(); // \Spinen\ConnectWise\Clients\Sales\Model\Forecast | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdForecastForecastIdPut($id, $forecast_id, $forecast);
@@ -255,11 +255,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **forecast_id** | **int**|  |
- **forecast** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast.md)|  |
+ **forecast** | [**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Forecast.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdForecastGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast[] salesOpportunitiesIdForecastGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\Forecast[] salesOpportunitiesIdForecastGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast[]**](../Model/Forecast.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Forecast[]**](../Model/Forecast.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdForecastPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastPost($id, $forecast)
+> \Spinen\ConnectWise\Clients\Sales\Model\Forecast salesOpportunitiesIdForecastPost($id, $forecast)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityForecastsApi();
 $id = 56; // int | 
-$forecast = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast | 
+$forecast = new \Spinen\ConnectWise\Clients\Sales\Model\Forecast(); // \Spinen\ConnectWise\Clients\Sales\Model\Forecast | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdForecastPost($id, $forecast);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **forecast** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast.md)|  |
+ **forecast** | [**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Forecast.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Forecast**](../Model/Forecast.md)
 
 ### Authorization
 

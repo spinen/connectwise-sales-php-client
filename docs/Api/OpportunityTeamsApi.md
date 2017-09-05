@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOpportunitiesIdTeamCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdTeamCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesIdTeamCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdTeamGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team[] salesOpportunitiesIdTeamGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\Team[] salesOpportunitiesIdTeamGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team[]**](../Model/Team.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Team[]**](../Model/Team.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdTeamPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamPost($id, $team)
+> \Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamPost($id, $team)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityTeamsApi();
 $id = 56; // int | 
-$team = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team | 
+$team = new \Spinen\ConnectWise\Clients\Sales\Model\Team(); // \Spinen\ConnectWise\Clients\Sales\Model\Team | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdTeamPost($id, $team);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **team** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team.md)|  |
+ **team** | [**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Team.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdTeamTeamIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdGet($id, $team_id)
+> \Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdGet($id, $team_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdTeamTeamIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdPatch($id, $team_id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdPatch($id, $team_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityTeamsApi();
 $id = 56; // int | 
 $team_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdTeamTeamIdPatch($id, $team_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdTeamTeamIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdPut($id, $team_id, $team)
+> \Spinen\ConnectWise\Clients\Sales\Model\Team salesOpportunitiesIdTeamTeamIdPut($id, $team_id, $team)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityTeamsApi();
 $id = 56; // int | 
 $team_id = 56; // int | 
-$team = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team | 
+$team = new \Spinen\ConnectWise\Clients\Sales\Model\Team(); // \Spinen\ConnectWise\Clients\Sales\Model\Team | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdTeamTeamIdPut($id, $team_id, $team);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **team_id** | **int**|  |
- **team** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team.md)|  |
+ **team** | [**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\Team.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Team**](../Model/Team.md)
 
 ### Authorization
 

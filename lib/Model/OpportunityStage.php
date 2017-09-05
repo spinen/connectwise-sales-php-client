@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,10 +57,10 @@ class OpportunityStage implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'probability' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference',
+        'probability' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference',
         'color' => 'string',
         'sequence_number' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -239,7 +239,7 @@ class OpportunityStage implements ArrayAccess
 
     /**
      * Gets probability
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference
      */
     public function getProbability()
     {
@@ -248,7 +248,7 @@ class OpportunityStage implements ArrayAccess
 
     /**
      * Sets probability
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference $probability
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityProbabilityReference $probability
      * @return $this
      */
     public function setProbability($probability)
@@ -306,7 +306,7 @@ class OpportunityStage implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -315,7 +315,7 @@ class OpportunityStage implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

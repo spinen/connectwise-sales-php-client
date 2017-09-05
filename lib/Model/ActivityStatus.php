@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -61,7 +61,7 @@ class ActivityStatus implements ArrayAccess
         'inactive_flag' => 'bool',
         'spawn_followup_flag' => 'bool',
         'closed_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -321,7 +321,7 @@ class ActivityStatus implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -330,7 +330,7 @@ class ActivityStatus implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

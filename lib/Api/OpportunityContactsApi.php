@@ -185,7 +185,7 @@ class OpportunityContactsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class OpportunityContactsApi
      * @param int $id  (required)
      * @param int $contact_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
      */
     public function salesOpportunitiesIdContactsContactIdGet($id, $contact_id)
     {
@@ -222,7 +222,7 @@ class OpportunityContactsApi
      * @param int $id  (required)
      * @param int $contact_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsContactIdGetWithHttpInfo($id, $contact_id)
     {
@@ -284,19 +284,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
+                '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
                 '/sales/opportunities/{id}/contacts/{contactId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class OpportunityContactsApi
      *
      * @param int $id  (required)
      * @param int $contact_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
      */
     public function salesOpportunitiesIdContactsContactIdPatch($id, $contact_id, $operations)
     {
@@ -333,9 +333,9 @@ class OpportunityContactsApi
      *
      * @param int $id  (required)
      * @param int $contact_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsContactIdPatchWithHttpInfo($id, $contact_id, $operations)
     {
@@ -406,19 +406,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
+                '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
                 '/sales/opportunities/{id}/contacts/{contactId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class OpportunityContactsApi
      *
      * @param int $id  (required)
      * @param int $contact_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
      */
     public function salesOpportunitiesIdContactsContactIdPut($id, $contact_id, $opportunity_contact)
     {
@@ -455,9 +455,9 @@ class OpportunityContactsApi
      *
      * @param int $id  (required)
      * @param int $contact_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsContactIdPutWithHttpInfo($id, $contact_id, $opportunity_contact)
     {
@@ -528,19 +528,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
+                '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
                 '/sales/opportunities/{id}/contacts/{contactId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -559,7 +559,7 @@ class OpportunityContactsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Count
      */
     public function salesOpportunitiesIdContactsCountGet($id, $conditions = null)
     {
@@ -577,7 +577,7 @@ class OpportunityContactsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -631,19 +631,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count',
+                '\Spinen\ConnectWise\Clients\Sales\Model\Count',
                 '/sales/opportunities/{id}/contacts/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -667,7 +667,7 @@ class OpportunityContactsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]
      */
     public function salesOpportunitiesIdContactsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -690,7 +690,7 @@ class OpportunityContactsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[], HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -764,19 +764,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]',
+                '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]',
                 '/sales/opportunities/{id}/contacts'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -793,9 +793,9 @@ class OpportunityContactsApi
      * Spinen&#39;s PHP ConnectWise Client for Sales API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact
      */
     public function salesOpportunitiesIdContactsPost($id, $opportunity_contact)
     {
@@ -811,9 +811,9 @@ class OpportunityContactsApi
      * Spinen&#39;s PHP ConnectWise Client for Sales API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact $opportunity_contact  (required)
      * @throws \Spinen\ConnectWise\Clients\Sales\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact, HTTP status code, HTTP response headers (array of strings)
      */
     public function salesOpportunitiesIdContactsPostWithHttpInfo($id, $opportunity_contact)
     {
@@ -872,19 +872,19 @@ class OpportunityContactsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
+                '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact',
                 '/sales/opportunities/{id}/contacts'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityContact', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Sales\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

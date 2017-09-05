@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOpportunitiesIdNotesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[] salesOpportunitiesIdNotesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[] salesOpportunitiesIdNotesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[]**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[]**](../Model/OpportunityNote.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdNotesGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[] salesOpportunitiesIdNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[] salesOpportunitiesIdNotesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[]**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote[]**](../Model/OpportunityNote.md)
 
 ### Authorization
 
@@ -177,7 +177,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdNotesNoteIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdGet($id, $note_id)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdGet($id, $note_id)
 
 
 
@@ -214,7 +214,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdNotesNoteIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdPatch($id, $note_id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdPatch($id, $note_id, $operations)
 
 
 
@@ -246,7 +246,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityNotesApi();
 $id = 56; // int | 
 $note_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdNotesNoteIdPatch($id, $note_id, $operations);
@@ -263,11 +263,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **note_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
 
 ### Authorization
 
@@ -281,7 +281,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdNotesNoteIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdPut($id, $note_id, $note)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesNoteIdPut($id, $note_id, $note)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityNotesApi();
 $id = 56; // int | 
 $note_id = 56; // int | 
-$note = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote | 
+$note = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdNotesNoteIdPut($id, $note_id, $note);
@@ -316,11 +316,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **note_id** | **int**|  |
- **note** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote.md)|  |
+ **note** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesIdNotesPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesPost($id, $note)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote salesOpportunitiesIdNotesPost($id, $note)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityNotesApi();
 $id = 56; // int | 
-$note = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote | 
+$note = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote | 
 
 try {
     $result = $api_instance->salesOpportunitiesIdNotesPost($id, $note);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **note** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote.md)|  |
+ **note** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityNote**](../Model/OpportunityNote.md)
 
 ### Authorization
 

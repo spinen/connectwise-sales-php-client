@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -62,7 +62,7 @@ class ActivityType implements ArrayAccess
         'inactive_flag' => 'bool',
         'email_flag' => 'bool',
         'memo_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -347,7 +347,7 @@ class ActivityType implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -356,7 +356,7 @@ class ActivityType implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

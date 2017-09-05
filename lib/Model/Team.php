@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,13 +57,13 @@ class Team implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'type' => 'string',
-        'member' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
-        'sales_team' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference',
+        'member' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'sales_team' => '\Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference',
         'commission_percent' => 'int',
         'referral_flag' => 'bool',
         'opportunity_id' => 'int',
         'responsible_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -263,7 +263,7 @@ class Team implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getMember()
     {
@@ -272,7 +272,7 @@ class Team implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -284,7 +284,7 @@ class Team implements ArrayAccess
 
     /**
      * Gets sales_team
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference
      */
     public function getSalesTeam()
     {
@@ -293,7 +293,7 @@ class Team implements ArrayAccess
 
     /**
      * Sets sales_team
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference $sales_team
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SalesTeamReference $sales_team
      * @return $this
      */
     public function setSalesTeam($sales_team)
@@ -389,7 +389,7 @@ class Team implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -398,7 +398,7 @@ class Team implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

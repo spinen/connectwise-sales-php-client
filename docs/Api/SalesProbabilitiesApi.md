@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesProbabilitiesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesProbabilitiesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesProbabilitiesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesProbabilitiesGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability[] salesProbabilitiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability[] salesProbabilitiesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability[]**](../Model/SalesProbability.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability[]**](../Model/SalesProbability.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesProbabilitiesIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesProbabilitiesIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\SalesProbabilitiesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesProbabilitiesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesProbabilitiesIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdPut($id, $probability)
+> \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesIdPut($id, $probability)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\SalesProbabilitiesApi();
 $id = 56; // int | 
-$probability = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability | 
+$probability = new \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability(); // \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability | 
 
 try {
     $result = $api_instance->salesProbabilitiesIdPut($id, $probability);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **probability** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability.md)|  |
+ **probability** | [**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesProbabilitiesPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesPost($probability)
+> \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability salesProbabilitiesPost($probability)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\SalesProbabilitiesApi();
-$probability = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability | 
+$probability = new \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability(); // \Spinen\ConnectWise\Clients\Sales\Model\SalesProbability | 
 
 try {
     $result = $api_instance->salesProbabilitiesPost($probability);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **probability** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability.md)|  |
+ **probability** | [**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\SalesProbability**](../Model/SalesProbability.md)
 
 ### Authorization
 

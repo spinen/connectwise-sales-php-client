@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -58,37 +58,37 @@ class Ticket implements ArrayAccess
         'id' => 'int',
         'summary' => 'string',
         'record_type' => 'string',
-        'board' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BoardReference',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference',
-        'project' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectReference',
-        'phase' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference',
+        'board' => '\Spinen\ConnectWise\Clients\Sales\Model\BoardReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference',
+        'project' => '\Spinen\ConnectWise\Clients\Sales\Model\ProjectReference',
+        'phase' => '\Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference',
         'wbs_code' => 'string',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
         'site_name' => 'string',
         'address_line1' => 'string',
         'address_line2' => 'string',
         'city' => 'string',
         'state_identifier' => 'string',
         'zip' => 'string',
-        'country' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CountryReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'country' => '\Spinen\ConnectWise\Clients\Sales\Model\CountryReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
         'contact_name' => 'string',
         'contact_phone_number' => 'string',
         'contact_phone_extension' => 'string',
         'contact_email_address' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference',
-        'sub_type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference',
-        'item' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference',
-        'team' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference',
-        'owner' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
-        'priority' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PriorityReference',
-        'service_location' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference',
-        'source' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference',
+        'sub_type' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference',
+        'item' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference',
+        'team' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference',
+        'owner' => '\Spinen\ConnectWise\Clients\Sales\Model\MemberReference',
+        'priority' => '\Spinen\ConnectWise\Clients\Sales\Model\PriorityReference',
+        'service_location' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference',
+        'source' => '\Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference',
         'required_date' => '\DateTime',
         'budget_hours' => 'double',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
-        'agreement' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference',
         'severity' => 'string',
         'impact' => 'string',
         'external_x_ref' => 'string',
@@ -141,10 +141,10 @@ class Ticket implements ArrayAccess
         'duration' => 'int',
         'location_id' => 'int',
         'business_unit_id' => 'int',
-        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid',
-        'sla' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SLAReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
-        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
+        'mobile_guid' => '\Spinen\ConnectWise\Clients\Sales\Model\Guid',
+        'sla' => '\Spinen\ConnectWise\Clients\Sales\Model\SLAReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
+        'custom_fields' => '\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]'
     ];
 
     public static function swaggerTypes()
@@ -1018,7 +1018,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BoardReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\BoardReference
      */
     public function getBoard()
     {
@@ -1027,7 +1027,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\BoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\BoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -1039,7 +1039,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference
      */
     public function getStatus()
     {
@@ -1048,7 +1048,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -1060,7 +1060,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets project
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ProjectReference
      */
     public function getProject()
     {
@@ -1069,7 +1069,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets project
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectReference $project
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ProjectReference $project
      * @return $this
      */
     public function setProject($project)
@@ -1081,7 +1081,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets phase
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference
      */
     public function getPhase()
     {
@@ -1090,7 +1090,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets phase
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference $phase
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ProjectPhaseReference $phase
      * @return $this
      */
     public function setPhase($phase)
@@ -1127,7 +1127,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -1136,7 +1136,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -1148,7 +1148,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getSite()
     {
@@ -1157,7 +1157,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -1319,7 +1319,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets country
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CountryReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CountryReference
      */
     public function getCountry()
     {
@@ -1328,7 +1328,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets country
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CountryReference $country
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CountryReference $country
      * @return $this
      */
     public function setCountry($country)
@@ -1340,7 +1340,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -1349,7 +1349,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -1461,7 +1461,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference
      */
     public function getType()
     {
@@ -1470,7 +1470,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -1482,7 +1482,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets sub_type
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference
      */
     public function getSubType()
     {
@@ -1491,7 +1491,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets sub_type
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference $sub_type
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceSubTypeReference $sub_type
      * @return $this
      */
     public function setSubType($sub_type)
@@ -1503,7 +1503,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets item
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference
      */
     public function getItem()
     {
@@ -1512,7 +1512,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets item
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference $item
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceItemReference $item
      * @return $this
      */
     public function setItem($item)
@@ -1524,7 +1524,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets team
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference
      */
     public function getTeam()
     {
@@ -1533,7 +1533,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets team
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference $team
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceTeamReference $team
      * @return $this
      */
     public function setTeam($team)
@@ -1545,7 +1545,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets owner
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\MemberReference
      */
     public function getOwner()
     {
@@ -1554,7 +1554,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets owner
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\MemberReference $owner
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\MemberReference $owner
      * @return $this
      */
     public function setOwner($owner)
@@ -1566,7 +1566,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets priority
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PriorityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\PriorityReference
      */
     public function getPriority()
     {
@@ -1575,7 +1575,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets priority
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PriorityReference $priority
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\PriorityReference $priority
      * @return $this
      */
     public function setPriority($priority)
@@ -1587,7 +1587,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets service_location
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference
      */
     public function getServiceLocation()
     {
@@ -1596,7 +1596,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets service_location
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference $service_location
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceLocationReference $service_location
      * @return $this
      */
     public function setServiceLocation($service_location)
@@ -1608,7 +1608,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets source
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference
      */
     public function getSource()
     {
@@ -1617,7 +1617,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets source
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference $source
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ServiceSourceReference $source
      * @return $this
      */
     public function setSource($source)
@@ -1671,7 +1671,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -1680,7 +1680,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -1692,7 +1692,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -1701,7 +1701,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -2849,7 +2849,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets mobile_guid
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Guid
      */
     public function getMobileGuid()
     {
@@ -2858,7 +2858,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets mobile_guid
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Guid $mobile_guid
      * @return $this
      */
     public function setMobileGuid($mobile_guid)
@@ -2870,7 +2870,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets sla
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SLAReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SLAReference
      */
     public function getSla()
     {
@@ -2879,7 +2879,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets sla
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SLAReference $sla
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SLAReference $sla
      * @return $this
      */
     public function setSla($sla)
@@ -2891,7 +2891,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -2900,7 +2900,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
@@ -2912,7 +2912,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Gets custom_fields
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[]
      */
     public function getCustomFields()
     {
@@ -2921,7 +2921,7 @@ class Ticket implements ArrayAccess
 
     /**
      * Sets custom_fields
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CustomFieldValue[] $custom_fields
      * @return $this
      */
     public function setCustomFields($custom_fields)

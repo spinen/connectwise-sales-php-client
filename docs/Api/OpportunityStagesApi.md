@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesStagesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesStagesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesStagesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesStagesGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage[] salesStagesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage[] salesStagesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage[]**](../Model/OpportunityStage.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage[]**](../Model/OpportunityStage.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesStagesIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesStagesIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStagesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesStagesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesStagesIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdPut($id, $stage)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesIdPut($id, $stage)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStagesApi();
 $id = 56; // int | 
-$stage = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage | 
+$stage = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage | 
 
 try {
     $result = $api_instance->salesStagesIdPut($id, $stage);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **stage** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage.md)|  |
+ **stage** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesStagesPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesPost($stage)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage salesStagesPost($stage)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStagesApi();
-$stage = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage | 
+$stage = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage | 
 
 try {
     $result = $api_instance->salesStagesPost($stage);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **stage** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage.md)|  |
+ **stage** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStage**](../Model/OpportunityStage.md)
 
 ### Authorization
 

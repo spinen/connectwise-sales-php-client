@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,11 +57,11 @@ class Agreement implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'sub_contract_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'sub_contract_contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'type' => '\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'sub_contract_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'sub_contract_contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
         'parent_agreement_id' => 'int',
         'customer_po' => 'string',
         'location_id' => 'int',
@@ -71,7 +71,7 @@ class Agreement implements ArrayAccess
         'start_date' => '\DateTime',
         'end_date' => '\DateTime',
         'no_ending_date_flag' => 'bool',
-        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
+        'opportunity' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference',
         'cancelled_flag' => 'bool',
         'date_cancelled' => '\DateTime',
         'reason_cancelled' => 'string',
@@ -101,8 +101,8 @@ class Agreement implements ArrayAccess
         'bill_one_time_flag' => 'bool',
         'bill_terms_id' => 'int',
         'invoicing_cycle' => 'string',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'bill_to_site' => '\Spinen\ConnectWise\Clients\Sales\Model\SiteReference',
         'bill_amount' => 'double',
         'taxable' => 'bool',
         'prorate_first_bill' => 'double',
@@ -113,8 +113,8 @@ class Agreement implements ArrayAccess
         'invoice_description' => 'string',
         'top_comment' => 'bool',
         'bottom_comment' => 'bool',
-        'work_role' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference',
-        'work_type' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference',
+        'work_role' => '\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference',
+        'work_type' => '\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference',
         'project_type_id' => 'int',
         'invoice_template_setup_id' => 'int',
         'bill_time' => 'string',
@@ -123,7 +123,7 @@ class Agreement implements ArrayAccess
         'billable_time_invoice' => 'bool',
         'billable_expense_invoice' => 'bool',
         'billable_product_invoice' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata',
         'period_type' => 'string'
     ];
 
@@ -837,7 +837,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets type
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference
      */
     public function getType()
     {
@@ -846,7 +846,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets type
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference $type
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference $type
      * @return $this
      */
     public function setType($type)
@@ -858,7 +858,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -867,7 +867,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -879,7 +879,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -888,7 +888,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -900,7 +900,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets sub_contract_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getSubContractCompany()
     {
@@ -909,7 +909,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets sub_contract_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $sub_contract_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $sub_contract_company
      * @return $this
      */
     public function setSubContractCompany($sub_contract_company)
@@ -921,7 +921,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets sub_contract_contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getSubContractContact()
     {
@@ -930,7 +930,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets sub_contract_contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $sub_contract_contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $sub_contract_contact
      * @return $this
      */
     public function setSubContractContact($sub_contract_contact)
@@ -1135,7 +1135,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets opportunity
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference
      */
     public function getOpportunity()
     {
@@ -1144,7 +1144,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets opportunity
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityReference $opportunity
      * @return $this
      */
     public function setOpportunity($opportunity)
@@ -1797,7 +1797,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -1806,7 +1806,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -1818,7 +1818,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets bill_to_site
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\SiteReference
      */
     public function getBillToSite()
     {
@@ -1827,7 +1827,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets bill_to_site
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\SiteReference $bill_to_site
      * @return $this
      */
     public function setBillToSite($bill_to_site)
@@ -2049,7 +2049,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets work_role
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference
      */
     public function getWorkRole()
     {
@@ -2058,7 +2058,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets work_role
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference $work_role
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\WorkRoleReference $work_role
      * @return $this
      */
     public function setWorkRole($work_role)
@@ -2070,7 +2070,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets work_type
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference
      */
     public function getWorkType()
     {
@@ -2079,7 +2079,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets work_type
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference $work_type
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\WorkTypeReference $work_type
      * @return $this
      */
     public function setWorkType($work_type)
@@ -2271,7 +2271,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -2280,7 +2280,7 @@ class Agreement implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

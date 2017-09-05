@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **agreement_id** | **int** |  | [optional] 
 **name** | **string** |  | [optional] 
-**type** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference**](AgreementTypeReference.md) |  | [optional] 
+**type** | [**\Spinen\ConnectWise\Clients\Sales\Model\AgreementTypeReference**](AgreementTypeReference.md) |  | [optional] 
 **start_date** | **string** |  | [optional] 
 **end_date** | **string** |  | [optional] 
 **no_ending_date_flag** | **bool** |  | [optional] 

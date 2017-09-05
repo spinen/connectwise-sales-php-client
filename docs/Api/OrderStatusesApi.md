@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOrdersStatusesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOrdersStatusesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOrdersStatusesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrdersStatusesGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[] salesOrdersStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[] salesOrdersStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[]**](../Model/OrderStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[]**](../Model/OrderStatus.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrdersStatusesIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrdersStatusesIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OrderStatusesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOrdersStatusesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrdersStatusesIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdPut($id, $status)
+> \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus salesOrdersStatusesIdPut($id, $status)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OrderStatusesApi();
 $id = 56; // int | 
-$status = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus | 
+$status = new \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus(); // \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus | 
 
 try {
     $result = $api_instance->salesOrdersStatusesIdPut($id, $status);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **status** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/OrderStatus.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOrdersStatusesPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[] salesOrdersStatusesPost($status)
+> \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[] salesOrdersStatusesPost($status)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OrderStatusesApi();
-$status = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus | 
+$status = new \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus(); // \Spinen\ConnectWise\Clients\Sales\Model\OrderStatus | 
 
 try {
     $result = $api_instance->salesOrdersStatusesPost($status);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[]**](../Model/OrderStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OrderStatus[]**](../Model/OrderStatus.md)
 
 ### Authorization
 

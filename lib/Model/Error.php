@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -57,7 +57,7 @@ class Error implements ArrayAccess
     protected static $swaggerTypes = [
         'code' => 'string',
         'message' => 'string',
-        'errors' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ValidationError[]'
+        'errors' => '\Spinen\ConnectWise\Clients\Sales\Model\ValidationError[]'
     ];
 
     public static function swaggerTypes()
@@ -200,7 +200,7 @@ class Error implements ArrayAccess
 
     /**
      * Gets errors
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ValidationError[]
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ValidationError[]
      */
     public function getErrors()
     {
@@ -209,7 +209,7 @@ class Error implements ArrayAccess
 
     /**
      * Sets errors
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ValidationError[] $errors
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ValidationError[] $errors
      * @return $this
      */
     public function setErrors($errors)

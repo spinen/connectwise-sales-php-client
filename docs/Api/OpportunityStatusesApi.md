@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **salesOpportunitiesStatusesCountGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesStatusesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Sales\Model\Count salesOpportunitiesStatusesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesStatusesGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus[] salesOpportunitiesStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus[] salesOpportunitiesStatusesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus[]**](../Model/OpportunityStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus[]**](../Model/OpportunityStatus.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesStatusesIdGet**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdGet($id)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesStatusesIdPatch**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStatusesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->salesOpportunitiesStatusesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Sales\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesStatusesIdPut**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdPut($id, $status)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesIdPut($id, $status)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPa
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStatusesApi();
 $id = 56; // int | 
-$status = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus | 
+$status = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus | 
 
 try {
     $result = $api_instance->salesOpportunitiesStatusesIdPut($id, $status);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **status** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **salesOpportunitiesStatusesPost**
-> \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesPost($status)
+> \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus salesOpportunitiesStatusesPost($status)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setUs
 Spinen\ConnectWise\Clients\Sales\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Sales\Api\OpportunityStatusesApi();
-$status = new \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus(); // \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus | 
+$status = new \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus(); // \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus | 
 
 try {
     $result = $api_instance->salesOpportunitiesStatusesPost($status);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **status** | [**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus.md)|  |
+ **status** | [**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
+[**\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatus**](../Model/OpportunityStatus.md)
 
 ### Authorization
 

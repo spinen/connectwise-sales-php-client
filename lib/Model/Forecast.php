@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -60,13 +60,13 @@ class Forecast implements ArrayAccess
         'revenue' => 'double',
         'cost' => 'double',
         'type' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference',
+        'status' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference',
         'included_flag' => 'bool',
-        'recurring' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring',
+        'recurring' => '\Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring',
         'percent' => 'double',
         'margin' => 'double',
         'opportunity_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -358,7 +358,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference
      */
     public function getStatus()
     {
@@ -367,7 +367,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunityStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -400,7 +400,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Gets recurring
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring
      */
     public function getRecurring()
     {
@@ -409,7 +409,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Sets recurring
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring $recurring
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ProductRecurring $recurring
      * @return $this
      */
     public function setRecurring($recurring)
@@ -484,7 +484,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -493,7 +493,7 @@ class Forecast implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

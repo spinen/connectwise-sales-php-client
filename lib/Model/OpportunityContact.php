@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model;
+namespace Spinen\ConnectWise\Clients\Sales\Model;
 
 use \ArrayAccess;
 
@@ -56,15 +56,15 @@ class OpportunityContact implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'contact' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
-        'company' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
-        'role' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Sales\Model\ContactReference',
+        'company' => '\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference',
+        'role' => '\Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference',
         'notes' => 'string',
         'referral_flag' => 'bool',
         'opportunity_id' => 'int',
         'phone_number' => 'string',
         'email_address' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Sales\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -220,7 +220,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\ContactReference
      */
     public function getContact()
     {
@@ -229,7 +229,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -241,7 +241,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -250,7 +250,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -262,7 +262,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Gets role
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference
      */
     public function getRole()
     {
@@ -271,7 +271,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Sets role
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference $role
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\OpportunitySalesRoleReference $role
      * @return $this
      */
     public function setRole($role)
@@ -388,7 +388,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Sales\Model\Metadata
      */
     public function getInfo()
     {
@@ -397,7 +397,7 @@ class OpportunityContact implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Sales\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
