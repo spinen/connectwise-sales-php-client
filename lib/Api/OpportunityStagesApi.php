@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Sales\Spinen\ConnectWise\Clients\Sales\Api;
+namespace Spinen\ConnectWise\Clients\Sales\Api;
 
 use \Spinen\ConnectWise\Clients\Sales\ApiClient;
 use \Spinen\ConnectWise\Clients\Sales\ApiException;
